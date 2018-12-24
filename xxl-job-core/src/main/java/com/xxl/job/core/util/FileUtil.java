@@ -94,8 +94,8 @@ public class FileUtil {
         }
 
         // read file
-        StringBuffer logContentBuffer = new StringBuffer();
-        int toLineNum = 0;
+        //StringBuffer logContentBuffer = new StringBuffer();
+        //int toLineNum = 0;
         LineNumberReader reader = null;
         try {
             //reader = new LineNumberReader(new FileReader(logFile));

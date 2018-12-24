@@ -1,7 +1,9 @@
-.idea
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+.settings
 .classpath
 .project
-*.iml
-target/
-.DS_Store
-.gitattributes
+target
