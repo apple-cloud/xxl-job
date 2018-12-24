@@ -131,14 +131,17 @@
 				</plugins>
 			</build>
 			<distributionManagement>
-				<snapshotRepository>
-					<id>oss</id>
-					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-				</snapshotRepository>
 				<repository>
-					<id>oss</id>
-					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+					<id>apple-releases</id>
+					<name>Apple Releases Repository</name>
+					<url>http://mvnrepo.appleframework.com:8081/nexus/content/repositories/releases</url>
 				</repository>
+		
+				<snapshotRepository>
+					<id>apple-snapshots</id>
+					<name>Apple Snapshots Repository</name>
+					<url>http://mvnrepo.appleframework.com:8081/nexus/content/repositories/snapshots</url>
+				</snapshotRepository>
 			</distributionManagement>
 		</profile>
 	</profiles>
